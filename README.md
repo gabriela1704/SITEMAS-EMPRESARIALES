@@ -176,6 +176,7 @@ Es la clase de la cual se debe extender para crear un servlet HTTP. De la clase 
 - **doPost(HttpServletRequest req, HttpServletResponse resp):** Ídem al anterior pero para el método POST, en general se implementa sólo un método y el otro lo referencia.
 
 ####EJEMPLO DE HTTPSERVLET
+
 ![PUBLIC ABSTRACT CLASS HTTPSERVLET EXTENDS GENERICSERVLET](https://4.bp.blogspot.com/-W98tNx1X2yw/WRsWH7VjK6I/AAAAAAAAASc/i1reBg9TcgA11nzIXre03i0HxEjerVShgCLcB/s1600/ejemplo.gif) 
 
 
@@ -190,6 +191,7 @@ Es la clase de la cual se debe extender para crear un servlet HTTP. De la clase 
 - **getSession():** Retorna la sesión en la cual se encuentra el cliente.
 
 ####EJEMPLO DE HTTPSERVLETREQUEST
+
 ![PUBLIC ABSTRACT CLASS HTTPSERVLET EXTENDS GENERICSERVLET](https://jtagua.files.wordpress.com/2010/10/image95.jpg?w=730&h=800) 
 
 **PUBLIC ABSTRACT INTERFACE HTTPSERVLETRESPONSE EXTENDS SERVLETRESPONSE:**
@@ -200,6 +202,7 @@ Permite enviar al cliente respuestas específicas del protocolo HTTP.
 **setHeader(String name, String value):** Para definir un header HTTP a enviar al cliente.
 
 **sendRedirect(String location):** Envía un mensaje al cliente para redireccionar la respuesta a la dirección señalada.
+
 ####EJEMPLO DE HTTPSERVLETRESPONSE
 
 package servlets;
